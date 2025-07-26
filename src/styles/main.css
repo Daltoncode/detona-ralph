@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../images/muro.webp");
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    height: 100px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-bottom: 5px solid gold;
+
+ }
+ .panel{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+ }
+
+ .square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000;
+    background-color: rgb(169, 152, 138);
+ }
+
+ .enemy{
+    background-image: url("../images/ralph.webp");
+    background-size: cover;
+ }
+
+ .menu-live{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+ .menu-time h2:nth-child(2),
+ .menu-score h2:nth-child(2){
+   margin-top: 10px;
+ }
