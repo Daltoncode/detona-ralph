@@ -14,8 +14,4 @@ Jogo simples onde você precisa clicar no inimigo para marcar pontos antes do te
 - CSS
 - JavaScript
 
-## Como rodar
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/Daltoncode/detona-ralph.git
