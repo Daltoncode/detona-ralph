@@ -13,10 +13,10 @@ const state = {
     values: {
         timerId: null,
         countdownTimerId: null,
-        gameVelocity: 1000,
+        gameVelocity: 7000,
         hitposition: null,
         result: 0,
-        currentTime: 10,
+        currentTime: 30,
         lives: 3,
     },
     actions: {
